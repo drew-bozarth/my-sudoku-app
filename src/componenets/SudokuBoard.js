@@ -9,8 +9,8 @@ export default class SudokuBoard extends Component {
 
         return (
             <div>
-                {!sudoku.solveTime && <Timer start={sudoku.startTime} />}
-                {sudoku.solveTime && <Result sudoku={sudoku} />}
+                {!sudoku.solvedTime && <Timer start={sudoku.startTime} />}
+                {sudoku.solvedTime && <Result sudoku={sudoku} />}
                 {sudoku.rows.map(row => (
                     <div className="row" key={row.index}>
                         {row.cols.map(field => (
