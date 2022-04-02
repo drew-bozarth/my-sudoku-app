@@ -14,6 +14,7 @@ export default class Result extends Component {
             )
         : null;
 
+        
         return (
             <div>
                 <h2>You solved the sudoku in {elapsed} seconds!</h2>
