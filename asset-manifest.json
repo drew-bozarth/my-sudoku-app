@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-sudoku-app/static/css/main.a42f0d83.chunk.css",
+    "main.js": "/my-sudoku-app/static/js/main.afff684e.chunk.js",
+    "main.js.map": "/my-sudoku-app/static/js/main.afff684e.chunk.js.map",
+    "runtime~main.js": "/my-sudoku-app/static/js/runtime~main.69a34a82.js",
+    "runtime~main.js.map": "/my-sudoku-app/static/js/runtime~main.69a34a82.js.map",
+    "static/js/2.46b9030e.chunk.js": "/my-sudoku-app/static/js/2.46b9030e.chunk.js",
+    "static/js/2.46b9030e.chunk.js.map": "/my-sudoku-app/static/js/2.46b9030e.chunk.js.map",
+    "index.html": "/my-sudoku-app/index.html",
+    "precache-manifest.69a831202c714173edaad95a17bd07a0.js": "/my-sudoku-app/precache-manifest.69a831202c714173edaad95a17bd07a0.js",
+    "service-worker.js": "/my-sudoku-app/service-worker.js",
+    "static/css/main.a42f0d83.chunk.css.map": "/my-sudoku-app/static/css/main.a42f0d83.chunk.css.map"
+  }
+}
