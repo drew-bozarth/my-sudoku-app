@@ -6,11 +6,11 @@ export default class Result extends Component {
         const elapsed = Math.floor(
             (sudoku.solvedTime.getTime() - sudoku.startTime.getTime()) / 1000
         );
-        const opponent = sudoku.challengerSolvedTime 
+        const opponent = sudoku.challengerSolvedTime
             ? Math.floor(
-                (sudoku.challengerSolvedTime.getTime() - 
-                sudoku.challengerStartTime.getTime()) / 
-                1000
+                (sudoku.challengerSolvedTime - 
+                    sudoku.challengerStartTime) / 
+                    1000
             )
         : null;
 
