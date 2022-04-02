@@ -20,7 +20,7 @@ export default class Result extends Component {
                 {opponent && <h3> Your opponent solved it in {opponent} seconds</h3>}
                 <p>
                     Challenge a friend:{" "}
-                    <a href={sudoku.shareUrl}>Share Link</a>{" "}
+                    <a href={sudoku.shareUrl} target="_blank">Share Link</a>{" "}
                 </p>
             </div>
         );
