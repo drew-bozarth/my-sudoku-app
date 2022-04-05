@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 
-export default class SudokuBoard extends Component {
+export default class SudokuField extends Component {
     handleChange = e => {
         const value = value === "" ? null : parseInt(e.target.value, 10);
 
